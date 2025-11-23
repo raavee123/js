@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <h3>ERROR HANDLING</h3>
+     <p id="error"></p>
+     <script>
+        try{
+            eval("x+50");
+
+        }
+        catch(err){
+           document.getElementById("error").innerHTML=err.message
+        }
+     </script>
+    </body>
+</html>
